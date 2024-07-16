@@ -159,7 +159,7 @@
 		$tax->field_docs = $tax_old->field_docs;
 		$tax->field_tech["und"][0]["value"] = $page->specifications;
 		$tax->field_tech["und"][0]["format"] = $term_settings["format"];
-        $tax->field_tech["und"][0]["safe_value"] = $page->specifications;
+        	$tax->field_tech["und"][0]["safe_value"] = $page->specifications;
 		$tax->field_brief["und"][0]["value"] = "<h2>".$page->full_title."</h2><p>".$page->brief_desc."</p>";
 		$tax->field_brief["und"][0]["format"] = $term_settings["format"];
 		$tax->field_brief["und"][0]["safe_value"] = "<h2>".$page->full_title."</h2><p>".$page->brief_desc."</p>";
